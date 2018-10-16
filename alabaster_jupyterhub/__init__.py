@@ -1,7 +1,9 @@
+"""The JupyterHub Alabaster theme"""
 import os
 
 from alabaster_jupyterhub import _version as version
 
+__version__ = version.__version__
 
 with open(os.path.join(os.path.dirname(__file__), "_version.py")) as fp:
     exec(fp.read(), None, {})
