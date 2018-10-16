@@ -1,0 +1,7 @@
+{%- extends "basic/layout.html" %}
+
+{%- block extrahead %}
+  {{ super() }}
+  <!-- Add JupyterHub styling -->
+  <link rel="stylesheet" href="{{ pathto('_static/jupyter.css', 1) }}" type="text/css" />
+{% endblock %}

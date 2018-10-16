@@ -1,0 +1,6 @@
+alabaster
+sphinx
+
+# Install ourselves direct, even when being used on eg RTD. Otherwise we can't
+# dogfood our own changes until release to PyPI.
+-e .
