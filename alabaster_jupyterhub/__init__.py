@@ -1,6 +1,7 @@
 """The JupyterHub Alabaster theme"""
 import os
 
+
 from alabaster_jupyterhub import _version as version
 
 __version__ = version.__version__
@@ -24,8 +25,4 @@ def get_html_theme_path():
     return os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
 def setup(app):
-    # add_html_theme is new in Sphinx 1.6+
-    if hasattr(app, "add_html_theme"):
-        theme_path = os.path.abspath(os.path.dirname(__file__))
-        app.add_html_theme("alabaster_jupyterhub", theme_path)
-    return {"version": version.__version__, "parallel_read_safe": True}
+    app.add_html_theme('alabaster_jupyterhub', os.path.abspath(os.path.dirname(__file__)))
