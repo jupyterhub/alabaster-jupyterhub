@@ -15,6 +15,14 @@ def get_path():
     # Theme directory is defined as our parent directory
     return os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
 
+def get_html_theme_path():
+    """
+    Utility to return theme location.
+    Used in Sphinx conf.py to set html_theme_path.
+    """
+    # Theme directory is defined as our parent directory
+    return os.path.abspath(os.path.dirname(os.path.dirname(__file__)))
+
 def setup(app):
     # add_html_theme is new in Sphinx 1.6+
     if hasattr(app, "add_html_theme"):

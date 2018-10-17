@@ -19,4 +19,8 @@ setup(
     packages=["alabaster_jupyterhub"],
     include_package_data=True,
     entry_points={"sphinx.html_themes": ["alabaster_jupyterhub = alabaster_jupyterhub"]},
+    install_requires=[
+       'sphinx',
+       'alabaster',
+    ]
 )
