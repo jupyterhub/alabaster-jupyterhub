@@ -9,7 +9,7 @@ This is a demo for the changes we make to the Alabaster theme. If
 any new changes are added, we can preview them here. Anything that's *not*
 explicitly demoed should be assumed to be the same as the Alabaster theme.
 
-Modifying the sidebar and body captions 
+Modifying the sidebar and body captions
 =======================================
 
 We often use the ``toctree`` "caption" argument to add a small caption header
@@ -29,3 +29,35 @@ in-line captions.
 
    foo <https://jupyter.org/>
    bar <https://jupyter.org/>
+
+
+Lorem Ipsum
+===========
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget ipsum blandit,
+tristique velit quis, aliquam libero. Sed vitae accumsan tortor, vitae vulputate tellus.
+Sed sed lacus mauris. Duis efficitur, tellus maximus fermentum faucibus, tellus sapien
+ornare arcu, ac vulputate ante erat a arcu. Praesent maximus nisl eget est tincidunt,
+non suscipit metus volutpat. Quisque volutpat lectus id arcu volutpat molestie. Integer
+tincidunt lorem et lobortis cursus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget ipsum blandit,
+tristique velit quis, aliquam libero. Sed vitae accumsan tortor, vitae vulputate tellus.
+Sed sed lacus mauris. Duis efficitur, tellus maximus fermentum faucibus, tellus sapien
+ornare arcu, ac vulputate ante erat a arcu. Praesent maximus nisl eget est tincidunt,
+non suscipit metus volutpat. Quisque volutpat lectus id arcu volutpat molestie. Integer
+tincidunt lorem et lobortis cursus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget ipsum blandit,
+tristique velit quis, aliquam libero. Sed vitae accumsan tortor, vitae vulputate tellus.
+Sed sed lacus mauris. Duis efficitur, tellus maximus fermentum faucibus, tellus sapien
+ornare arcu, ac vulputate ante erat a arcu. Praesent maximus nisl eget est tincidunt,
+non suscipit metus volutpat. Quisque volutpat lectus id arcu volutpat molestie. Integer
+tincidunt lorem et lobortis cursus.
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus eget ipsum blandit,
+tristique velit quis, aliquam libero. Sed vitae accumsan tortor, vitae vulputate tellus.
+Sed sed lacus mauris. Duis efficitur, tellus maximus fermentum faucibus, tellus sapien
+ornare arcu, ac vulputate ante erat a arcu. Praesent maximus nisl eget est tincidunt,
+non suscipit metus volutpat. Quisque volutpat lectus id arcu volutpat molestie. Integer
+tincidunt lorem et lobortis cursus.
