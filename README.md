@@ -1,5 +1,7 @@
 # alabaster-jupyterhub
 
+[![PyPI version](https://badge.fury.io/py/alabaster_jupyterhub.svg)](https://badge.fury.io/py/alabaster_jupyterhub)
+
 A Sphinx theme used by the JupyterHub org projects. It is a slight modification
 of the Alabaster theme.
 
