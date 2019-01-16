@@ -4,6 +4,10 @@ div.body p.caption {
 }
 
 /* Sidebar */
+div.sphinxsidebarwrapper h1 {
+    font-size: 1.8em;
+}
+
 div.sphinxsidebarwrapper p.caption {
     font-size: 1.4em;
 }
@@ -11,4 +15,64 @@ div.sphinxsidebarwrapper p.caption {
 div.sphinxsidebarwrapper ul {
     font-size: .8em;
     padding-left: 1em;
+}
+
+/* Right sidebar */
+@media screen and (min-width: 875px) {
+    div.body {
+        /* To allow room for sidebar */
+        max-width: 700px;
+    }
+
+    div.document {
+        width: 1160px;
+    }
+}
+
+
+
+@media screen and (min-width: 875px) {
+    div.rightsidebar {
+        /* Positioning */
+        display: block;
+        width: 220px;
+        position: fixed;
+        top: 72px;
+        right: 0;
+        padding-right: 24px;
+        z-index: 1;
+        left: 50%;
+        transform: translateX(400px);
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    div.rightsidebar {
+        display: none;
+    }
+}
+
+div.rightsidebar {
+    /* Font text */
+    font-size: .8em;
+    color: #444;
+    text-decoration: none;
+}
+
+div.rightsidebar a {
+    color: #444;
+    text-decoration: none;
+    border-bottom: none;
+}
+
+div.rightsidebar ul, ol {
+    margin: 5px 0 5px 30px;
+}
+
+div.rightsidebar ul, ol {
+    margin: 5px 0 5px 15px;
+}
+
+div.rightsidebar li {
+    margin: 3px 0px 3px 0px;
 }
