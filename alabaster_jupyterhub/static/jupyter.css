@@ -4,6 +4,10 @@ div.body p.caption {
 }
 
 /* Sidebar */
+div.sphinxsidebarwrapper h1 {
+    font-size: 1.8em;
+}
+
 div.sphinxsidebarwrapper p.caption {
     font-size: 1.4em;
 }
@@ -42,7 +46,7 @@ div.sphinxsidebarwrapper ul {
     }
 }
 
-@media screen and (max-width: 875px) {
+@media screen and (max-width: 1150px) {
     div.rightsidebar {
         display: none;
     }
@@ -67,4 +71,8 @@ div.rightsidebar ul, ol {
 
 div.rightsidebar ul, ol {
     margin: 5px 0 5px 15px;
+}
+
+div.rightsidebar li {
+    margin: 3px 0px 3px 0px;
 }
