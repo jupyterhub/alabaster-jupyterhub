@@ -11,7 +11,12 @@ div.body p.caption {
         overflow-y: auto;
         top: 30px;
         border-right: 1px solid #767677;
+        padding-right: 5px;
     }
+}
+
+img.logo {
+    max-width: 80%;
 }
 
 .sphinxsidebar::-webkit-scrollbar { width: 0 !important }
