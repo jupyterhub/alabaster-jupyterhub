@@ -4,6 +4,19 @@ div.body p.caption {
 }
 
 /* Sidebar */
+@media screen and (min-width: 875px) {
+    div.sphinxsidebar {
+        position: fixed;
+        margin-left: 0px;
+        overflow-y: auto;
+        top: 30px;
+        border-right: 1px solid #767677;
+    }
+}
+
+.sphinxsidebar::-webkit-scrollbar { width: 0 !important }
+.sphinxsidebar { overflow: -moz-scrollbars-none; }
+
 div.sphinxsidebarwrapper h1 {
     font-size: 1.8em;
 }
@@ -29,8 +42,6 @@ div.sphinxsidebarwrapper ul {
     }
 }
 
-
-
 @media screen and (min-width: 875px) {
     div.rightsidebar {
         /* Positioning */
@@ -55,12 +66,12 @@ div.sphinxsidebarwrapper ul {
 div.rightsidebar {
     /* Font text */
     font-size: .8em;
-    color: #444;
+    color: #767677;
     text-decoration: none;
 }
 
 div.rightsidebar a {
-    color: #444;
+    color: #767677;
     text-decoration: none;
     border-bottom: none;
 }
@@ -75,4 +86,46 @@ div.rightsidebar ul, ol {
 
 div.rightsidebar li {
     margin: 3px 0px 3px 0px;
+}
+
+/* Prev / Next buttons */
+a.left-prev, a.right-next {
+    border: 1px solid #767677;
+    color: #767677;
+    border-radius: 6px;
+    padding: 5px;
+    text-decoration: none;
+    overflow-x: hidden;
+    margin: 0px 10px 10px 30px;
+
+    /* Opacity control */
+    opacity: 0.6;
+    transition: opacity .3s ease-out;
+    -moz-transition: opacity .3s ease-out;
+    -webkit-transition: opacity .3s ease-out;
+    -o-transition: opacity .3s ease-out;
+}
+
+a.left-prev:hover, a.right-next:hover {
+    opacity: 1;
+}
+
+.right-next {
+    float: right;
+    max-width: 45%;
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.left-prev {
+    float: left;
+    max-width: 45%;
+    overflow: auto;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.prev-next-top, .prev-next-bottom {
+    max-width: 700px;
 }
