@@ -9,6 +9,7 @@ div.body p.caption {
         position: fixed;
         margin-left: 0px;
         overflow-y: auto;
+        height: 95%;
         top: 30px;
         border-right: 1px solid #767677;
         padding-right: 5px;
