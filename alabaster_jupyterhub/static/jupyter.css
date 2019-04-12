@@ -36,8 +36,13 @@ div.sphinxsidebarwrapper ul {
     padding-left: 1em;
 }
 
+/* Prevent body from scrolling under the left sidebar */
+.bodywrapper {
+    overflow-x: hidden;
+}
+
 /* Right sidebar */
-@media screen and (min-width: 875px) {
+@media screen and (min-width: 1150px) {
     div.body {
         /* To allow room for sidebar */
         max-width: 700px;
@@ -48,7 +53,7 @@ div.sphinxsidebarwrapper ul {
     }
 }
 
-@media screen and (min-width: 875px) {
+@media screen and (min-width: 1150px) {
     div.rightsidebar {
         /* Positioning */
         display: block;
