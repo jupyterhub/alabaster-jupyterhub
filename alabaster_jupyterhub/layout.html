@@ -4,6 +4,11 @@
 {{ super() }}
 <!-- Add JupyterHub styling -->
 <link rel="stylesheet" href="{{ pathto('_static/jupyter.css', 1) }}" type="text/css" />
+
+{%- if not favicon %}
+<link rel="shortcut icon" href="{{ pathto('_static/favicon.ico', 1) }}"/>
+{%- endif %}
+
 {% endblock %}
 
 {% block sidebar1 %}
