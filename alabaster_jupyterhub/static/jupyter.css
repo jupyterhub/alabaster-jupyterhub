@@ -1,3 +1,8 @@
+/* Ensure the body doesn't cut off text on mobile */
+div.body {
+    min-width: 10px;
+}
+
 /* Caption titles in the main text */
 div.body p.caption {
     font-size: 1.2em;
