@@ -93,16 +93,27 @@ div.rightsidebar a {
     border-bottom: none;
 }
 
-div.rightsidebar ul, ol {
-    margin: 5px 0 5px 30px;
+/* Top level TOC is just the page title, make it inivisble */
+div.rightsidebar h3 + ul > li > a {
+    display: none;
 }
 
-div.rightsidebar ul, ol {
-    margin: 5px 0 5px 15px;
+/* Right sidebar indentation */
+div.rightsidebar ul {
+    list-style: none;
+    margin: 5px 0 5px 0px;
 }
 
-div.rightsidebar li {
+div.rightsidebar ul li {
     margin: 3px 0px 3px 0px;
+}
+
+div.rightsidebar ul > li > ul {
+    margin: 5px 0 5px 0px;
+}
+
+div.rightsidebar ul > li > ul > li > ul {
+    margin: 5px 0 5px 15px;
 }
 
 /* Prev / Next buttons */
