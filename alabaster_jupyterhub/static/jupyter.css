@@ -23,7 +23,7 @@ div.body p.caption {
 }
 
 img.logo {
-    max-width: 80%;
+    max-width: 60%;
 }
 
 .sphinxsidebar::-webkit-scrollbar { width: 0 !important }
