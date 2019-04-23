@@ -20,8 +20,8 @@ in-line captions.
 .. toctree::
    :caption: This is the first caption
 
-   foo <https://jupyter.org/>
-   bar <https://jupyter.org/>
+   page2
+   page3
 
 .. toctree::
    :caption: And now, the second caption
