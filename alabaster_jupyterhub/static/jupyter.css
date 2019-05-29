@@ -1,14 +1,7 @@
-/* Ensure the body doesn't cut off text on mobile */
-div.body {
-    min-width: 10px;
-}
-
-/* Caption titles in the main text */
-div.body p.caption {
-    font-size: 1.2em;
-}
-
-/* Sidebar */
+/* ************************
+   Navigation (AKA left Sidebar)
+   ************************
+*/
 @media screen and (min-width: 875px) {
     div.sphinxsidebar {
         position: fixed;
@@ -38,16 +31,27 @@ div.sphinxsidebarwrapper p.caption {
 }
 
 div.sphinxsidebarwrapper ul {
-    font-size: .8em;
-    padding-left: 1em;
+    font-size: .9em;
+    padding-left: .5em;
 }
 
-/* Prevent body from scrolling under the left sidebar */
-.bodywrapper {
-    overflow-x: hidden;
+li.toctree-l1 {
+    padding-top: .5em;
 }
 
-/* Right sidebar */
+div#searchbox {
+    padding-bottom: 1em;
+}
+
+/* GitHub logo */
+img.inlinelogo {
+    max-height: 1em;
+}
+
+/* ************************
+   In-page TOC (Right Sidebar)
+   ************************
+*/
 @media screen and (min-width: 1150px) {
     div.body {
         /* To allow room for sidebar */
@@ -63,14 +67,14 @@ div.sphinxsidebarwrapper ul {
     div.rightsidebar {
         /* Positioning */
         display: block;
-        width: 220px;
+        width: 210px;
         position: fixed;
         top: 72px;
         right: 0;
         padding-right: 24px;
         z-index: 1;
         left: 50%;
-        transform: translateX(400px);
+        transform: translateX(410px);
     }
 }
 
@@ -124,6 +128,11 @@ div.rightsidebar ul > li > ul > li > ul {
     margin: 5px 0 5px 15px;
 }
 
+/* ************************
+   In-page buttons etc
+   ************************
+*/
+
 /* Prev / Next buttons */
 a.left-prev, a.right-next {
     border: 1px solid #767677;
@@ -166,12 +175,18 @@ a.left-prev:hover, a.right-next:hover {
     max-width: 700px;
 }
 
-/* Navigation */
-div#searchbox {
-    padding-bottom: 1em;
+/* Ensure the body doesn't cut off text on mobile */
+div.body {
+    min-width: 10px;
+    padding-left: 3em;
 }
 
-/* GitHub logo */
-img.inlinelogo {
-    max-height: 1em;
+/* Caption titles in the main text */
+div.body p.caption {
+    font-size: 1.2em;
+}
+
+/* Prevent body from scrolling under the left sidebar */
+.bodywrapper {
+    overflow-x: hidden;
 }
