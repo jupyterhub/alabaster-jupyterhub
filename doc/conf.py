@@ -53,8 +53,6 @@ language = None
 # This patterns also effect to html_static_path and html_extra_path
 exclude_patterns = ["_build", "Thumbs.db", ".DS_Store"]
 
-# html_sidebars = { '**': ['globaltoc.html', 'relations.html', 'sourcelink.html', 'searchbox.html'] }
-
 # The name of the Pygments (syntax highlighting) style to use.
 pygments_style = "sphinx"
 
@@ -78,6 +76,14 @@ html_theme_path = [alabaster_jupyterhub.get_html_theme_path()]
 # documentation.
 #
 # html_theme_options = {}
+
+html_context = {
+    "github_user": "jupyterhub",
+    "github_repo": "alabaster-jupyterhub",
+    "github_version": "master",
+    "doc_path": "doc",
+    "source_suffix": source_suffix,
+}
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,

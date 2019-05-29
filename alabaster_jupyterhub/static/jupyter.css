@@ -170,3 +170,8 @@ a.left-prev:hover, a.right-next:hover {
 div#searchbox {
     padding-bottom: 1em;
 }
+
+/* GitHub logo */
+img.inlinelogo {
+    max-height: 1em;
+}
