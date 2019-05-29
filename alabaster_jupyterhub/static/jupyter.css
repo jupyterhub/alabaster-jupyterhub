@@ -85,6 +85,8 @@ div.rightsidebar {
     font-size: .8em;
     color: #767677;
     text-decoration: none;
+    overflow-y: auto;
+    max-height: 100%;
 }
 
 div.rightsidebar a {
@@ -93,25 +95,31 @@ div.rightsidebar a {
     border-bottom: none;
 }
 
+/* Right sidebar indentation */
+div.rightsidebar ul {
+    list-style: none;
+}
+
 /* Top level TOC is just the page title, make it inivisble */
 div.rightsidebar h3 + ul > li > a {
     display: none;
 }
 
-/* Right sidebar indentation */
+/* Second level */
 div.rightsidebar ul {
-    list-style: none;
-    margin: 5px 0 5px 0px;
-}
-
-div.rightsidebar ul li {
     margin: 3px 0px 3px 0px;
 }
 
+div.rightsidebar > ul > li > ul > li {
+    padding-top: .5em;
+}
+
+/* Third */
 div.rightsidebar ul > li > ul {
     margin: 5px 0 5px 0px;
 }
 
+/* Fourth */
 div.rightsidebar ul > li > ul > li > ul {
     margin: 5px 0 5px 15px;
 }
@@ -156,4 +164,9 @@ a.left-prev:hover, a.right-next:hover {
 
 .prev-next-top, .prev-next-bottom {
     max-width: 700px;
+}
+
+/* Navigation */
+div#searchbox {
+    padding-bottom: 1em;
 }
