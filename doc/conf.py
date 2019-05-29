@@ -82,7 +82,6 @@ html_context = {
     "github_repo": "alabaster-jupyterhub",
     "github_version": "master",
     "doc_path": "doc",
-    "source_suffix": source_suffix,
 }
 
 # Add any paths that contain custom static files (such as style sheets) here,
