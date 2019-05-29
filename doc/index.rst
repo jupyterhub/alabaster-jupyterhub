@@ -19,6 +19,7 @@ in-line captions.
 
 .. toctree::
    :caption: This is the first caption
+   :maxdepth: 2
 
    page2
    page3
