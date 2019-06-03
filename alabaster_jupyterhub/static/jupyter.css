@@ -53,17 +53,6 @@ img.inlinelogo {
    ************************
 */
 @media screen and (min-width: 1150px) {
-    div.body {
-        /* To allow room for sidebar */
-        max-width: 700px;
-    }
-
-    div.document {
-        width: 1160px;
-    }
-}
-
-@media screen and (min-width: 1150px) {
     div.rightsidebar {
         /* Positioning */
         display: block;
@@ -133,6 +122,26 @@ div.rightsidebar ul > li > ul > li > ul {
    ************************
 */
 
+@media screen and (min-width: 1150px) {
+    div.document {
+        width: 1160px;
+    }
+
+    div.body {
+        padding-left: 2.5em;
+    }
+
+    a.left-prev {
+        margin-left: 2.5em !important;
+    }
+}
+
+/* Ensure the body doesn't cut off text on mobile */
+div.body {
+    min-width: 10px;
+    max-width: 675px;
+}
+
 /* Prev / Next buttons */
 a.left-prev, a.right-next {
     border: 1px solid #767677;
@@ -173,12 +182,6 @@ a.left-prev:hover, a.right-next:hover {
 
 .prev-next-top, .prev-next-bottom {
     max-width: 700px;
-}
-
-/* Ensure the body doesn't cut off text on mobile */
-div.body {
-    min-width: 10px;
-    padding-left: 3em;
 }
 
 /* Caption titles in the main text */
