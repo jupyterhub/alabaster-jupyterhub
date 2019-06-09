@@ -79,7 +79,7 @@ div.rightsidebar {
     color: #767677;
     text-decoration: none;
     overflow-y: auto;
-    max-height: 80%;
+    max-height: 100%;
 }
 
 div.rightsidebar a {
@@ -192,4 +192,9 @@ div.body p.caption {
 /* Prevent body from scrolling under the left sidebar */
 .bodywrapper {
     overflow-x: hidden;
+}
+
+/* Prevent footer from rolling off to the right side */
+div.footer {
+    max-width: 650px;
 }
