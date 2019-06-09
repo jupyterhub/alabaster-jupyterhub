@@ -79,7 +79,7 @@ div.rightsidebar {
     color: #767677;
     text-decoration: none;
     overflow-y: auto;
-    max-height: 100%;
+    max-height: 90%;
 }
 
 div.rightsidebar a {
