@@ -1,3 +1,5 @@
+🛑🛑Warning: this project is no longer maintained. The JupyterHub team now uses [the pydata sphinx theme](https://pydata-sphinx-theme.readthedocs.io/)🛑🛑
+
 # alabaster-jupyterhub
 
 [![PyPI version](https://badge.fury.io/py/alabaster_jupyterhub.svg)](https://badge.fury.io/py/alabaster_jupyterhub)
@@ -6,6 +8,8 @@ A Sphinx theme used by the JupyterHub org projects. It is a slight modification
 of the Alabaster theme.
 
 ## Installation
+
+🛑🛑Warning: this project is no longer maintained. The JupyterHub team now uses [the pydata sphinx theme](https://pydata-sphinx-theme.readthedocs.io/)🛑🛑
 
 ```
 pip install alabaster_jupyterhub
